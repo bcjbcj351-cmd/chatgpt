@@ -1,0 +1,57 @@
+# dependencies
+node_modules/
+.venv/
+venv/
+
+# build outputs
+dist/
+build/
+*.apk
+*.aab
+
+# caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.gradle/
+
+# environment & secrets
+.env
+.env.*
+!.env.example
+!.env.development.example
+!.env.production.example
+local.properties
+keystore.properties
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+*.crt
+*.cer
+
+# logs
+*.log
+logs/
+
+# archives / release packages
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# local tool/memory folders
+.tools/
+.claude/
+.workbuddy/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
